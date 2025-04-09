@@ -5,16 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        .container{
+            height: 8000px;
+            background-color: aqua;
+        }
         div{
             border: 1px solid black;
         }
         img{
             margin: 10px;
+            height: 150px;
         }
+        .image2{
+            position: relative;
+            top: 100px;
+            left: 100px;
+            /* in relative position we use the top bottom left and right property of position to the respective of current window */
+            /* and the gap or space is maintained as same */
+
+            /* position absolute is not maintain the gap it takes the preserve place and relative to its closest positioned and here we use top left and right and bottom */
+            /* position fixed property is used to fix the element like image */
+        }
+        .image4{
+            position: fixed;
+        }
+    .image3{
+        position: sticky;
+        top: 100px;
+    }
     </style>
 </head>
 <body>
-    <div>
+    <div class="container">
         <img class="image1" src="./download (1).jpeg" alt="Poster1">
         <img class="image2"  src="/download (2).jpeg" alt="Poster2">
         <img class="image3"  src="./download (3).jpeg" alt="Poster3">
