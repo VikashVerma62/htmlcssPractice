@@ -9,6 +9,7 @@
    
 
 
+
   let number=5;
   if(number==1){
     console.log('A');
@@ -39,5 +40,5 @@
     break;
     case 5: console.log('E');
     break; 
-    
+
   }
