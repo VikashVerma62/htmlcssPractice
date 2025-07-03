@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 400px;
+            width: 400px;
+            background-color: beige;
+            border: 2px solid black;
+            /* transition: all;
+            transition-duration: 4s;
+            transition-delay: 1s;
+            transition-timing-function: linear; */
+
+/* short hand notation */
+            /* transition: all 2s;     property name duration      */
+
+            /* propetry name duration delay */ transition: all 2s 5s;
+
+            /* property name duration ese in function ease-in start slow end fast */  transition: all 2s ease-in;
+
+            /* property name duration ease in function delay */ transition: all 2s ease-in 5s;
+
+            /* multiple property */  transition: width 2s height 5s;
+        }
+        .box:hover{
+            width: 1200px;
+            height: 900px;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+
+    </div>
+</body>
+</html>
