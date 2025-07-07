@@ -405,7 +405,7 @@ width: 1280px;
 
 
 
-@media (max-width: 640px) {
+@media (max-width: 1040px) {
   .testimonial_grid {
     grid-template-columns: 1fr;
   }
@@ -629,6 +629,8 @@ ul{
     margin-top: 2rem;
     padding-top: 1.5rem;
     border-top: #E5E7EB;
+
+
 }
 
 @media screen and (max-width:820px) {
