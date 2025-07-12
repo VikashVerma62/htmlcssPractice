@@ -57,4 +57,5 @@ console.log(op1.toLocaleUpperCase());
 
 
 let name1='babbar';
+
 console.log(name1.substring(2));
