@@ -99,3 +99,26 @@ return sum;
 
 let sum=getSum(1,2,3);
 console.log(sum);
+
+
+
+function getMyName(firstName,lastName){
+   let fullName=firstName+" "+lastName;
+   return fullName;
+
+   //unrechable code or statement
+
+   let a=10;
+   b=20;
+
+}
+
+let name2=getMyName("vikash","verma");
+
+let getExp=(x,y)=>{
+
+   let ans=x**y;
+   return ans;
+
+}
+console.log(getExp(2,10));
