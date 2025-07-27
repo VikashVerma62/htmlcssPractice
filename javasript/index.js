@@ -180,3 +180,7 @@ let letSum=(arr4)=>{
 }
 totalsum=letSum(arr4);
 console.log(letSum);
+
+
+
+
